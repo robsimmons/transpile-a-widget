@@ -1,11 +1,8 @@
 {
     "scripts": {
         "build": "babel src -d lib",
-        "watch": "babel src -d lib -w"
-    },
-    "prettier": {
-        "printWidth": 110,
-        "tabWidth": 4
+        "watch": "babel src -d lib -w",
+        "prettier": "prettier --write *.json src/**/*.js src/**/*.jsx"
     },
     "devDependencies": {
         "@babel/cli": "^7.2.3",
@@ -13,5 +10,9 @@
         "@babel/plugin-transform-react-jsx": "^7.3.0",
         "@babel/preset-react": "^7.0.0",
         "prettier": "^1.16.3"
+    },
+    "prettier": {
+        "printWidth": 110,
+        "tabWidth": 4
     }
 }
