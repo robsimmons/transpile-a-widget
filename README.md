@@ -5,7 +5,7 @@ turned into highly-compatible JS code.
 Go to each directory and run `npm init` to get started.
 
 Every example also includes the ability to run `npm run prettier`
-in order to make your code pretty. I'm an evangelist for [opinionated
+in order to make your code prettier. I'm an evangelist for [opinionated
 code formatting](https://prettier.io/) for fun and profit.
 
 ## babel-ex
